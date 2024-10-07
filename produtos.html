@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nossos produtos e preços.">
+    <meta name="keywords" content="produtos, preços, pedras preciosas">
+    <meta name="author" content="Empresa de Pedras Preciosas">
+    <title>Produtos e Preços</title>
+
+    <!-- Estilos CSS embutidos -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+
+
+
+        nav {
+            display: flex;
+            justify-content: center;
+            
+
+        }
+
+        nav a {
+            color: black;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            width: 220px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .product h3 {
+            color: #333;
+        }
+
+        .product p {
+            color: #666;
+        }
+
+        /* Efeito hover para destacar os produtos */
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .product:hover img {
+            transform: scale(1.1);
+        }
+
+        /* Botão de destaque de compra */
+        .buy-now {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            margin-top: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .buy-now:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            
+            color: black;
+            text-align: center;
+            padding: 2px;
+            position: fixed;
+            bottom: 0;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Produtos e Preços</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="produtos.html">Produtos e Preços</a>
+        <a href="orcamento.html">Orçamento</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <!-- Produtos -->
+    <section id="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://st5.depositphotos.com/5344180/67904/i/1600/depositphotos_679049882-stock-photo-rough-diamond-precious-stone-mines.jpg" alt="Diamante bruto, uma pedra preciosa de grande valor.">
+                <h3>Diamante</h3>
+                <p>Inigualável brilho e a capacidade de decompor a luz branca nas cores do arco-íris.</p>
+                <p>R$5000,00</p>
+                <a href="#" class="buy-now">Comprar Agora</a>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9P38V3zj999Uv1VUV6q4CTTn4TW3ZxJ1VCdzmdry4WX3Pk62RlYWE_YNNQA&s" alt="Esmeralda brilhante, a gema verde mais antiga conhecida.">
+                <h3>Esmeralda</h3>
+                <p>A esmeralda é a gema mais antiga conhecida da humanidade.</p>
+                <p>R$3000,00</p>
+                <a href="#" class="buy-now">Comprar Agora</a>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-3TAvTSGF6JQASbR3pzqCrf3gC9TuY-NNCN_ddBN0yO2Q6z-1QAZLG6jNJQ&s" alt="Rubi brilhante, uma pedra preciosa vermelha-sangue.">
+                <h3>Rubi</h3>
+                <p>Pedra preciosa rosa a vermelho-sangue, uma variedade de corindo mineral.</p>
+                <p>R$4000,00</p>
+                <a href="#" class="buy-now">Comprar Agora</a>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXjAt7JX67LMxITTdM5zMRwD-on0M_HYe5rQ&s" alt="Ametista roxa, uma variedade do quartzo.">
+                <h3>Ametista</h3>
+                <p>Ametista é uma variedade violeta ou púrpura do quartzo.</p>
+                <p>R$2000,00</p>
+                <a href="#" class="buy-now">Comprar Agora</a>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7T8i8YLuaPgPLkomYZhCXBYvs1qegcSi5OA&s" alt="Ametista roxa, uma variedade do quartzo.">
+                <h3>Topazio</h3>
+                <p>   .</p>
+                <p>R$7000,00</p>
+                <a href="#" class="buy-now">Comprar Agora</a>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXPpVegqDry9eCH2Bua9mDZIlSUJnrLozSLA&s" alt="Ametista roxa, uma variedade do quartzo.">
+              <h3>Agua Marinha</h3>
+                <p>Essa pedra refinada é conhecida por seus benefícios físicos e espirituais.</p>
+                <p>R$9000,00</p>
+                <a href="#" class="buy-now">Comprar Agora</a>
+             </div>
+             <div class="product">
+                <img src="https://segredosdomundo.r7.com/wp-content/uploads/2022/01/50-nomes-e-significados-de-pedras-preciosas-30-e1643632607786.jpg" alt="Ametista roxa, uma variedade do quartzo.">
+                <h3>Safira</h3>
+                <p>Os antigos persas acreditavam que a safira era tão azul quanto o céu e, portanto, consideravam essa pedra preciosa um símbolo de lealdade e prestígio.</p>
+                <p>R$2000,00</p>
+                <a href="#" class="buy-now">Comprar Agora</a>
+             </div>
+ <div class="product">
+                <img src="https://segredosdomundo.r7.com/wp-content/uploads/2022/01/50-nomes-e-significados-de-pedras-preciosas-8.jpg.webp" alt="Ametista roxa, uma variedade do quartzo.">
+                <h3>Cornalina</h3>
+                <p>Acredita-se que a cornalina tenha propriedades curativas e energéticas.</p>
+                <p>R$4000,00</p>
+                <a href="#" class="buy-now">Comprar Agora</a>
+             </div>
+ <div class="product">
+                <img src="https://segredosdomundo.r7.com/wp-content/uploads/2022/01/50-nomes-e-significados-de-pedras-preciosas-23-scaled-e1643632230362.jpg.webp" alt="Ametista roxa, uma variedade do quartzo.">
+                <h3>Pedra-da-lua.</h3>
+                <p>A pedra-da-lua é considerada a “pedra da força” e também conhecida como a “pedra do poder feminino”.</p>
+                <p>R$1000,00</p>
+                <a href="#" class="buy-now">Comprar Agora</a>
+             </div>
+ <div class="product">
+                <img src="https://segredosdomundo.r7.com/wp-content/uploads/2022/01/50-nomes-e-significados-de-pedras-preciosas-3.png.webp" alt="Ametista roxa, uma variedade do quartzo.">
+                <h3>Turmalina</h3>
+                <p>As turquesas são capazes de facilitar a comunicação e reduzir o estresse de falar em público.</p>
+                <p>R$2000,00</p>
+                <a href="#" class="buy-now">Comprar Agora</a>
+             </div>
+ <div class="product">
+                <img src="https://segredosdomundo.r7.com/wp-content/uploads/2022/01/50-nomes-e-significados-de-pedras-preciosas-33-e1643632769649.jpg" alt="Ametista roxa, uma variedade do quartzo.">
+                <h3>Tanzanita</h3>
+                <p>Ela limpa a energia ruim e obsoleta proporcionando brilho, entusiasmo, iluminação e calor. </p>
+                <p>R$11000,00</p>
+                <a href="#" class="buy-now">Comprar Agora</a>
+             </div>
+ <div class="product">
+                <img src="https://segredosdomundo.r7.com/wp-content/uploads/2022/01/50-nomes-e-significados-de-pedras-preciosas-4.png.webp" alt="Ametista roxa, uma variedade do quartzo.">
+                <h3>Cristal</h3>
+                <p> E estas estão diretamente ligadas à nossa alegria, felicidade e outros sentimentos. </p>
+                <p>R$2000,00</p>
+                <a href="#" class="buy-now">Comprar Agora</a>
+             </div>
+ <div class="product">
+                <img src="https://segredosdomundo.r7.com/wp-content/uploads/2022/01/50-nomes-e-significados-de-pedras-preciosas-28-e1643632538212.jpg" alt="Ametista roxa, uma variedade do quartzo.">
+                <h3>Quartzo rosa</h3>
+                <p>Doce e refinada, esta pedra evoca paz, ternura e serenidade. Além disso, o quartzo rosa ajuda a curar feridas emocionais.</p>
+                <p>R$2000,00</p>
+                <a href="#" class="buy-now">Comprar Agora</a>
+             </div>
+ <div class="product">
+                <img src="https://segredosdomundo.r7.com/wp-content/uploads/2022/01/50-nomes-e-significados-de-pedras-preciosas-e1643632289340.webp" alt="Ametista roxa, uma variedade do quartzo.">
+                <h3>Ônix</h3>
+                <p>Nos tempos antigos, o ônix era conhecido como o “terceiro olho”. Na Idade Média, era considerada a “pedra preciosa para afastar os maus espíritos”.</p>
+                <p>R$2000,00</p>
+                <a href="#" class="buy-now">Comprar Agora</a>
+             </div>
+ <div class="product">
+                <img src="https://segredosdomundo.r7.com/wp-content/uploads/2022/01/50-nomes-e-significados-de-pedras-preciosas-15.jpg.webp" alt="Ametista roxa, uma variedade do quartzo.">
+                <h3>Granada</h3>
+                <p>A granada vermelha é a mais comum e é composta de silicatos de alumínio e cálcio. Ela é conhecida por sua beleza e durabilidade.</p>
+                <p>R$2000,00</p>
+                <a href="#" class="buy-now">Comprar Agora</a>
+             </div>
+ <div class="product">
+                <img src="https://segredosdomundo.r7.com/wp-content/uploads/2022/01/50-nomes-e-significados-de-pedras-preciosas-3.png.webp" alt="Ametista roxa, uma variedade do quartzo.">
+                <h3>Turmalina</h3>
+                <p>As turquesas são capazes de facilitar a comunicação e reduzir o estresse de falar em público.</p>
+                <p>R$2000,00</p>
+                <a href="#" class="buy-now">Comprar Agora</a>
+             </div>
+
+
+
+
+
+
+    </section>
+
+    <footer>
+
+
+
+
+
+
+
+
+
+
+
+        <p>&copy; 2024 Empresa Pedras Preciosas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
